@@ -1,0 +1,117 @@
+article_no,name_en,name_ar,role,width_mm,height_mm,weight_kg_per_m,catalogue_page,notes
+40033,Frame (closed) with 40mm architrave,حلق مغلق ببرواز ٤٠ مم,frame,100,79,,63,weight not printed; cleats 17819/17851/26287
+40051,Frame (closed) with 40mm architrave,حلق مغلق ببرواز ٤٠ مم,frame,100,79,,63,weight not printed; cleats 21894/29338
+40070,Frame (closed) with 40mm architrave,حلق مغلق ببرواز ٤٠ مم,frame,100,79,,63,weight not printed; cleats 21894/29338; architrave 40.4
+40032,Frame (open) with 40mm architrave,حلق مفتوح ببرواز ٤٠ مم,frame,100,79,1.610,64,
+40050,Frame (open) with 40mm architrave,حلق مفتوح ببرواز ٤٠ مم,frame,100,79,1.385,64,
+40069,Frame (open) with 40mm architrave,حلق مفتوح ببرواز ٤٠ مم,frame,100,79,,64,weight not printed
+40085,Frame (closed) without architrave,حلق مغلق بدون برواز,frame,100,39,1.704,65,cleats 17819/17851/26287
+40084,Frame (closed) with 25mm architrave,حلق مغلق ببرواز ٢٥ مم,frame,100,64,1.850,65,cleats 17819/17851/26287
+40074,Adaptor top and bottom,محول علوي وسفلي,adaptor,100,64,1.715,65,44 body + 20 leg
+40082,Adaptor to frame for fixed light,محول حلق للزجاج الثابت,adaptor,100,48.6,0.788,66,
+40086,Frame (closed) with 25mm architrave (flyscreen inside),حلق مغلق ببرواز ٢٥ مم (شبك من الداخل),frame,100,64,1.850,66,cleats 17819/17851/26287
+40046,Frame (closed) with 25mm architrave (flyscreen inside),حلق مغلق ببرواز ٢٥ مم (شبك من الداخل),frame,100,64,1.598,66,cleats 17819/17851/26287
+40088,Frame (closed) without architrave (flyscreen inside),حلق مغلق بدون برواز (شبك من الداخل),frame,100,39,1.696,67,cleats 17819/17851/26287
+40095,Frame (closed) with 30mm architrave (flyscreen inside),حلق مغلق ببرواز ٣٠ مم (شبك من الداخل),frame,100,69,1.642,67,cleats 17819/17851/26287
+40043,Frame (closed) with 25mm architrave (flyscreen inside),حلق مغلق ببرواز ٢٥ مم (شبك من الداخل),frame,100,65,1.952,67,cleats 17819/17851/26287
+40096,Adaptor top and bottom,محول علوي وسفلي,adaptor,100,64,1.755,68,44 body + 20 leg
+40097,Adaptor to frame for fixed light,محول حلق للزجاج الثابت,adaptor,100,48.6,0.807,68,
+41027,T for adaptor 40082/40097/40112,تي للمحول 40082/40097/40112,adaptor,40,63,,68,weight not printed
+61005,Angle for architrave,زاوية للبرواز,other,24,15,0.200,68,
+41008,Glazing bead for 6mm glass,كلبس زجاج ٦ مم,glazing_bead,23.5,20,0.267,68,glass 6mm
+41029,Glazing bead for 18mm glass,كلبس زجاج ١٨ مم,glazing_bead,12.5,20,0.186,68,glass 18mm
+41007,Glazing bead for 24mm glass,كلبس زجاج ٢٤ مم,glazing_bead,5.5,20,0.184,68,glass 24mm
+40111,Adaptor top and bottom,محول علوي وسفلي,adaptor,100,64,1.750,69,44 body + 20 leg
+40112,Adaptor to frame for fixed light,محول حلق للزجاج الثابت,adaptor,100,48.6,0.829,69,
+40034,Frame (closed) without architrave,حلق مغلق بدون برواز,frame,100,39,1.760,70,cleats 17819/17851/26287
+40093,Frame (closed) with 40mm architrave,حلق مغلق ببرواز ٤٠ مم,frame,100,79,2.021,70,cleats 17819/17851/26287
+40030,Frame (closed) without architrave,حلق مغلق بدون برواز,frame,100,39,1.793,70,cleats 17819/17851/26287
+40031,Frame (closed) with 25mm architrave,حلق مغلق ببرواز ٢٥ مم,frame,100,64,,71,weight not printed; cleats 17819/17851/26287
+40042,Frame (closed) with 25mm architrave,حلق مغلق ببرواز ٢٥ مم,frame,100,64,1.652,71,also sold as 18361 (J); 40042 is (D); cleats 21894/29338
+18361,Frame (closed) with 25mm architrave,حلق مغلق ببرواز ٢٥ مم,frame,100,64,1.652,71,same section as 40042 (J variant)
+40098,Frame (closed) with 26mm architrave,حلق مغلق ببرواز ٢٦ مم,frame,100,64,1.442,71,cleats 17819/17851/26287
+40029,Frame (open) with 25mm architrave,حلق مفتوح ببرواز ٢٥ مم,frame,100,64,1.609,72,
+40010,Frame (open) with 25mm architrave,حلق مفتوح ببرواز ٢٥ مم,frame,100,57,1.277,72,
+40060,Frame (closed) with 26mm architrave,حلق مغلق ببرواز ٢٦ مم,frame,100,64,,72,weight not printed; cleats 17819/17851/26287
+41046,T for adaptor 41042 (arch profile),تي للمحول 41042 (قطاع القوس),adaptor,40,53,0.996,73,
+41043,Arch glazing bead for 6mm glass,كلبس زجاج مقوس ٦ مم,glazing_bead,23.5,15,0.232,73,arch; glass 6mm
+41044,Arch glazing bead for 18mm glass,كلبس زجاج مقوس ١٨ مم,glazing_bead,11.5,15,0.200,73,arch; glass 18mm
+41045,Arch glazing bead for 24mm glass,كلبس زجاج مقوس ٢٤ مم,glazing_bead,5.5,15,0.173,73,arch; glass 24mm
+11341,Adaptor top and bottom,محول علوي وسفلي,adaptor,100,64,1.831,73,42 body + 22 leg
+11343,Adaptor for fixed light to all frames (flyscreen outside),محول ثابت لجميع الحلوق (شبك من الخارج),adaptor,100,50.6,0.853,73,
+41042,Frame for arch / fixed light,حلق للقوس / الزجاج الثابت,frame,100,43,1.067,73,
+40027,Shutter stile for 6mm glass (butt joints),قائم ضلفة لزجاج ٦ مم (تجميع مستقيم),sash,31,59,0.872,74,glass 6mm
+40015,Shutter stile for 18mm glass (butt joints),قائم ضلفة لزجاج ١٨ مم (تجميع مستقيم),sash,31,59,0.823,74,glass 18mm; with bead 40016
+40081,Window panel for 6mm glass (mitred joints),ضلفة شباك لزجاج ٦ مم (تجميع زاوية ٤٥),sash,31,59,0.872,74,glass 6mm; cleats 17873/17860
+40080,Window panel for 24mm glass (mitred joints),ضلفة شباك لزجاج ٢٤ مم (تجميع زاوية ٤٥),sash,31,59,0.791,74,glass 24mm; cleats 17873/17860
+40057,Shutter stile for 6mm glass (butt joints),قائم ضلفة لزجاج ٦ مم (تجميع مستقيم),sash,31,59,,74,weight not printed; glass 6mm
+40053,Shutter stile for 18mm glass (butt joints),قائم ضلفة لزجاج ١٨ مم (تجميع مستقيم),sash,31,59,,74,weight not printed; glass 18mm
+40066,Shutter stile for 18mm glass (butt joints),قائم ضلفة لزجاج ١٨ مم (تجميع مستقيم),sash,31,59,,74,weight not printed; glass 18mm
+40064,Shutter stile for 6mm glass (butt joints),قائم ضلفة لزجاج ٦ مم (تجميع مستقيم),sash,31,59,,74,weight not printed; glass 6mm
+40133,Window panel for 24mm glass (mitred joints),ضلفة شباك لزجاج ٢٤ مم (تجميع زاوية ٤٥),sash,31,59,0.894,74,glass 24mm; cleat 26605
+40024,Shutter interlock for 6mm glass,انترلوك ضلفة لزجاج ٦ مم,interlock,31,50,0.858,75,glass 6mm
+40054,Shutter interlock for 6mm glass,انترلوك ضلفة لزجاج ٦ مم,interlock,31,50,,75,weight not printed; glass 6mm
+40067,Shutter interlock for 18mm glass,انترلوك ضلفة لزجاج ١٨ مم,interlock,31,50,,75,weight not printed; glass 18mm
+40061,Shutter interlock for 6mm glass,انترلوك ضلفة لزجاج ٦ مم,interlock,31,50,,75,weight not printed; glass 6mm
+40012,Shutter interlock for 18mm glass,انترلوك ضلفة لزجاج ١٨ مم,interlock,31,50,0.810,75,glass 18mm
+40058,Shutter interlock for 18mm glass,انترلوك ضلفة لزجاج ١٨ مم,interlock,31,50,,75,weight not printed; glass 18mm
+40079,Shutter interlock for 24mm glass,انترلوك ضلفة لزجاج ٢٤ مم,interlock,31,50,0.759,75,glass 24mm
+40016,Adaptor to shutter from 18mm to 6mm glass,محول ضلفة من زجاج ١٨ مم إلى ٦ مم,adaptor,14.8,22.6,0.203,75,
+40017,Adaptor for shutter stile,محول قائم الضلفة,adaptor,17.5,31,0.332,75,dummy handle position
+40035,Window panel (mitred joints),ضلفة شباك (تجميع زاوية ٤٥),sash,31,59,,76,weight not printed; cleats 17818/17819/17859/17866
+40045,Window panel (mitred joints),ضلفة شباك (تجميع زاوية ٤٥),sash,31,59,0.738,76,cleats 17818/17819/17859/17866
+40036,Interlock adaptor,محول انترلوك,interlock,32.8,36.5,0.362,76,
+40094,Window panel (mitred joints),ضلفة شباك (تجميع زاوية ٤٥),sash,31,65,1.002,76,cleats 24149/17832
+40044,Glazing bead for 6mm glass,كلبس زجاج ٦ مم,glazing_bead,14.5,15,0.139,76,glass 6mm
+40021,Glazing bead for 6mm glass,كلبس زجاج ٦ مم,glazing_bead,14.5,15,0.149,76,glass 6mm
+40007,Glazing bead for 18mm glass,كلبس زجاج ١٨ مم,glazing_bead,2.5,15,,76,weight not printed; glass 18mm
+40073,Interlock adaptor,محول انترلوك,interlock,32.8,36.5,,76,weight not printed
+40072,Window panel (mitred joints),ضلفة شباك (تجميع زاوية ٤٥),sash,31,59,,76,weight not printed; cleats 17818/17819/17859/17866
+40026,Shutter top for 6mm glass,علوي ضلفة لزجاج ٦ مم,sash,27.6,49,0.724,77,glass 6mm
+40063,Shutter top for 6mm glass,علوي ضلفة لزجاج ٦ مم,sash,28.2,49,,77,weight not printed; glass 6mm
+40014,Shutter top for 18mm glass,علوي ضلفة لزجاج ١٨ مم,sash,27.6,49,0.670,77,glass 18mm
+40040,Shutter divider for 6mm glass,قاطع ضلفة لزجاج ٦ مم,sash,27.6,55,0.872,77,glass 6mm
+40068,Shutter top for 18mm glass,علوي ضلفة لزجاج ١٨ مم,sash,28.2,49,,77,weight not printed; glass 18mm
+40018,Shutter divider for 18mm glass,قاطع ضلفة لزجاج ١٨ مم,sash,27.6,55,0.772,77,glass 18mm
+40025,Shutter bottom for 6mm glass,سفلي ضلفة لزجاج ٦ مم,sash,27.7,63,0.894,77,glass 6mm
+40055,Shutter bottom for 6mm glass,سفلي ضلفة لزجاج ٦ مم,sash,27.7,63,,77,weight not printed; glass 6mm
+40013,Shutter bottom for 18mm glass,سفلي ضلفة لزجاج ١٨ مم,sash,27.6,63,0.851,77,glass 18mm
+40059,Shutter top for 18mm glass,علوي ضلفة لزجاج ١٨ مم,sash,27.6,49,0.618,78,glass 18mm
+40077,Shutter top for 24mm glass,علوي ضلفة لزجاج ٢٤ مم,sash,31,50,0.683,78,glass 24mm
+40062,Shutter bottom for 6mm glass,سفلي ضلفة لزجاج ٦ مم,sash,31.1,63,,78,weight not printed; glass 6mm
+10009,Flyscreen,شبك,flyscreen,16.5,46,0.500,78,cleats 17811/17812
+40071,Flyscreen,شبك,flyscreen,16.5,46,,78,weight not printed; cleats 17811/17812
+40023,Flyscreen,شبك,flyscreen,16.5,46,0.470,78,cleats 17811/17812
+62001,Tube 20x5,مربع ٢٠×٥,other,20,5,0.146,78,
+10095,Flyscreen handle,مقبض شبك,flyscreen,8.5,47.5,0.248,78,
+40052,Shutter bottom for 18mm glass,سفلي ضلفة لزجاج ١٨ مم,sash,27.7,63,,78,weight not printed; glass 18mm
+40078,Shutter bottom for 24mm glass,سفلي ضلفة لزجاج ٢٤ مم,sash,31,63,0.815,78,glass 24mm
+40065,Shutter bottom for 18mm glass,سفلي ضلفة لزجاج ١٨ مم,sash,28.3,63,,78,weight not printed; glass 18mm
+17832,Cleat for shutter 40094,زاوية تجميع للضلفة 40094,cleat,70,70,3.108,79,
+17811,Cleat for flyscreen,زاوية تجميع للشبك,cleat,60,60,2.695,79,
+17812,Cleat for flyscreen,زاوية تجميع للشبك,cleat,65,65,2.511,79,
+17859,Cleat for shutter 40035 & 40045,زاوية تجميع للضلفة 40035 و 40045,cleat,62,62,2.452,79,
+17866,Cleat for shutter 40035 & 40045,زاوية تجميع للضلفة 40035 و 40045,cleat,60,60,1.939,79,
+17818,Cleat for shutter 40035 & 40045,زاوية تجميع للضلفة 40035 و 40045,cleat,60,60,3.051,79,
+17819,Cleat for frames / shutters,زاوية تجميع للحلوق والضلف,cleat,60,60,3.785,79,
+17851,Cleat for frames,زاوية تجميع للحلوق,cleat,65.5,65.5,3.167,80,
+29338,Cleat for frames,زاوية تجميع للحلوق,cleat,60,60,3.316,80,
+26287,Cleat for frames,زاوية تجميع للحلوق,cleat,70,70,2.466,80,
+21894,Cleat for frames,زاوية تجميع للحلوق,cleat,60,60,2.992,80,
+17873,Cleat for shutter 40080 & 40081,زاوية تجميع للضلفة 40080 و 40081,cleat,65,65,2.187,80,
+17860,Cleat for shutter 40080 & 40081,زاوية تجميع للضلفة 40080 و 40081,cleat,62,62,3.245,80,
+24149,Cleat for shutter 40094,زاوية تجميع للضلفة 40094,cleat,60,60,2.022,80,
+26605,Cleat for shutter 40133,زاوية تجميع للضلفة 40133,cleat,60,60,2.530,80,
+40126,Frame (closed) with 25mm architrave - Super Saraya,حلق مغلق ببرواز ٢٥ مم - سوبر سرايا,frame,100,72.5,2.305,84,Super Saraya 2mm; cleats 17808/17809
+40128,Adaptor to frame for fixed light - Super Saraya,محول حلق للزجاج الثابت - سوبر سرايا,adaptor,100,32.5,1.003,84,Super Saraya 2mm
+40134,Frame (closed) with 25mm architrave - Super Saraya,حلق مغلق ببرواز ٢٥ مم - سوبر سرايا,frame,100,72.5,2.373,84,Super Saraya 2mm; cleats 17808/17809
+40127,Adaptor top and bottom - Super Saraya,محول علوي وسفلي - سوبر سرايا,adaptor,100,64,2.170,85,Super Saraya 2mm
+40135,Adaptor top and bottom - Super Saraya,محول علوي وسفلي - سوبر سرايا,adaptor,100,64,2.301,85,Super Saraya 2mm
+40130,Interlock adaptor - Super Saraya,محول انترلوك - سوبر سرايا,interlock,41.1,36.5,0.376,86,Super Saraya 2mm
+40129,Window panel (mitred joints) - Super Saraya,ضلفة شباك (تجميع زاوية ٤٥) - سوبر سرايا,sash,34.6,59.6,1.029,86,Super Saraya 2mm; cleat 17829
+32644,Weather seal profile,قطاع عازل للمطر,other,120,11.8,0.699,86,
+40132,Glazing bead for shutter - Super Saraya,كلبس زجاج للضلفة - سوبر سرايا,glazing_bead,8.8,17.3,0.097,86,Super Saraya 2mm
+40131,Glazing bead for shutter - Super Saraya,كلبس زجاج للضلفة - سوبر سرايا,glazing_bead,18.7,20,0.158,86,Super Saraya 2mm
+17808,Cleat for frame 40126 & 40134,زاوية تجميع للحلق 40126 و 40134,cleat,60,60,2.225,87,
+17809,Cleat for frame 40126 & 40134,زاوية تجميع للحلق 40126 و 40134,cleat,65,65,1.963,87,
+17829,Cleat for shutter 40129,زاوية تجميع للضلفة 40129,cleat,70,70,3.051,87,

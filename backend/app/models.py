@@ -24,6 +24,10 @@ class ProfileRole(str, enum.Enum):
     glazing_bead = "glazing_bead"
     threshold = "threshold"
     coupling = "coupling"
+    interlock = "interlock"
+    adaptor = "adaptor"
+    cleat = "cleat"
+    flyscreen = "flyscreen"
     other = "other"
 
 
