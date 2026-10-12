@@ -9,14 +9,15 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.db import SessionLocal
-from app.models import GlassType, HardwareItem, Profile, ProfileSystem
+from app.models import Element, GlassType, HardwareItem, Profile, ProfileSystem
 
 SYSTEMS = [
     dict(code="W70", name_en="Casement window 70 mm (thermal break)",
          name_ar="نافذة مفصلية ٧٠ مم (عازل حراري)", manufacturer="Sample",
-         thermal_break=True),
+         thermal_break=True, sash_overlap_mm=8, glass_bite_mm=10),
     dict(code="S120", name_en="Sliding system 120 mm", name_ar="نظام سحاب ١٢٠ مم",
-         manufacturer="Sample", thermal_break=False),
+         manufacturer="Sample", thermal_break=False, sash_overlap_mm=10,
+         glass_bite_mm=8),
 ]
 
 PROFILES = [
@@ -63,6 +64,16 @@ HARDWARE = [
          name_ar="جلدة زجاج EPDM", category="gasket", unit="metre", price_per_unit=0.45),
 ]
 
+# A two-part window: fixed glass on the left, tilt-turn on the right.
+ELEMENTS = [
+    dict(position="W01", name="Living room window / نافذة الصالة", system="W70",
+         width_mm=1800, height_mm=1500, frame="W70-101", mullion="W70-301",
+         transom="W70-301", sash="W70-201", bead="W70-501", glass="DG6166",
+         layout={"kind": "split", "direction": "vertical", "sizes": [900, None],
+                 "children": [{"kind": "field", "opening": "fixed"},
+                              {"kind": "field", "opening": "tilt_turn_right"}]}),
+]
+
 
 def seed(session: Session) -> None:
     systems = {s.code: s for s in session.scalars(select(ProfileSystem))}
@@ -89,6 +100,24 @@ def seed(session: Session) -> None:
             data = dict(data)
             code = data.pop("system")
             session.add(HardwareItem(system_id=systems[code].id if code else None, **data))
+    session.flush()
+
+    profiles = {p.article_no: p.id for p in session.scalars(select(Profile))}
+    glass = {g.code: g.id for g in session.scalars(select(GlassType))}
+    existing = set(session.scalars(select(Element.position)))
+    for data in ELEMENTS:
+        if data["position"] not in existing:
+            data = dict(data)
+            session.add(Element(
+                system_id=systems[data.pop("system")].id,
+                frame_profile_id=profiles[data.pop("frame")],
+                mullion_profile_id=profiles[data.pop("mullion")],
+                transom_profile_id=profiles[data.pop("transom")],
+                sash_profile_id=profiles[data.pop("sash")],
+                bead_profile_id=profiles[data.pop("bead")],
+                glass_id=glass[data.pop("glass")],
+                **data,
+            ))
 
     session.commit()
 

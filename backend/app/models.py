@@ -7,7 +7,10 @@ English and an Arabic name.
 import enum
 from decimal import Decimal
 
-from sqlalchemy import Enum, ForeignKey, Numeric, String, Text
+from datetime import datetime
+
+from sqlalchemy import DateTime, Enum, ForeignKey, Numeric, String, Text, func
+from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db import Base
@@ -57,6 +60,15 @@ class ProfileSystem(Base):
     manufacturer: Mapped[str | None] = mapped_column(String(200))
     description: Mapped[str | None] = mapped_column(Text)
     thermal_break: Mapped[bool] = mapped_column(default=False)
+    # How far a sash overlaps the frame opening on each side.
+    sash_overlap_mm: Mapped[Decimal] = mapped_column(
+        Numeric(6, 2), default=0, server_default="0"
+    )
+    # How far the glass edge goes in under the profile on each side, past
+    # the visible opening.
+    glass_bite_mm: Mapped[Decimal] = mapped_column(
+        Numeric(6, 2), default=0, server_default="0"
+    )
 
     profiles: Mapped[list["Profile"]] = relationship(back_populates="system")
 
@@ -74,6 +86,8 @@ class Profile(Base):
     name_en: Mapped[str] = mapped_column(String(200))
     name_ar: Mapped[str] = mapped_column(String(200))
     role: Mapped[ProfileRole] = mapped_column(_enum(ProfileRole))
+    # width_mm is the depth of the profile through the wall; height_mm is
+    # its visible face width, which the element designer uses.
     width_mm: Mapped[Decimal] = mapped_column(Numeric(8, 2))
     height_mm: Mapped[Decimal] = mapped_column(Numeric(8, 2))
     weight_kg_per_m: Mapped[Decimal] = mapped_column(Numeric(8, 3))
@@ -117,3 +131,48 @@ class HardwareItem(Base):
         _enum(HardwareUnit), default=HardwareUnit.piece
     )
     price_per_unit: Mapped[Decimal | None] = mapped_column(Numeric(10, 2))
+
+
+class Element(Base):
+    """A window or door drawn in the element designer.
+
+    ``layout`` is a tree of fields and splits (see ``app.schemas.Node``).
+    Profile and glass choices point into the catalog.
+    """
+
+    __tablename__ = "elements"
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    position: Mapped[str] = mapped_column(String(64), default="")
+    name: Mapped[str] = mapped_column(String(200))
+    quantity: Mapped[int] = mapped_column(default=1)
+    system_id: Mapped[int] = mapped_column(
+        ForeignKey("profile_systems.id", ondelete="RESTRICT"), index=True
+    )
+    width_mm: Mapped[Decimal] = mapped_column(Numeric(8, 1))
+    height_mm: Mapped[Decimal] = mapped_column(Numeric(8, 1))
+    frame_profile_id: Mapped[int] = mapped_column(
+        ForeignKey("profiles.id", ondelete="RESTRICT")
+    )
+    mullion_profile_id: Mapped[int | None] = mapped_column(
+        ForeignKey("profiles.id", ondelete="RESTRICT")
+    )
+    transom_profile_id: Mapped[int | None] = mapped_column(
+        ForeignKey("profiles.id", ondelete="RESTRICT")
+    )
+    sash_profile_id: Mapped[int | None] = mapped_column(
+        ForeignKey("profiles.id", ondelete="RESTRICT")
+    )
+    bead_profile_id: Mapped[int | None] = mapped_column(
+        ForeignKey("profiles.id", ondelete="RESTRICT")
+    )
+    glass_id: Mapped[int] = mapped_column(
+        ForeignKey("glass_types.id", ondelete="RESTRICT")
+    )
+    layout: Mapped[dict] = mapped_column(JSONB)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now()
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), onupdate=func.now()
+    )

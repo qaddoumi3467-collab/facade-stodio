@@ -1,7 +1,11 @@
 import { useCallback, useEffect, useState, type FormEvent } from 'react'
 import { api, type Row } from './api'
 import { CATALOGS, DEFAULTS, toPayload, type CatalogConfig, type Field } from './catalog'
+import { DesignerPage } from './Designer'
 import { LangContext, useT, type Lang } from './i18n'
+
+// The designer tab comes after the catalog tabs.
+const DESIGNER_TAB = CATALOGS.length
 
 export default function App() {
   const [lang, setLang] = useState<Lang>(() =>
@@ -20,11 +24,18 @@ export default function App() {
       <Header onToggle={() => setLang(lang === 'en' ? 'ar' : 'en')} />
       <nav className="tabs">
         {CATALOGS.map((c, i) => (
-          <TabButton key={c.resource} config={c} active={i === tab} onClick={() => setTab(i)} />
+          <TabButton key={c.resource} label={c.tab} active={i === tab} onClick={() => setTab(i)} />
         ))}
+        <TabButton label="tab.designer" active={tab === DESIGNER_TAB} onClick={() => setTab(DESIGNER_TAB)} />
       </nav>
       <main>
-        <CatalogPage key={CATALOGS[tab].resource} config={CATALOGS[tab]} />
+        {tab === DESIGNER_TAB ? (
+          <section>
+            <DesignerPage />
+          </section>
+        ) : (
+          <CatalogPage key={CATALOGS[tab].resource} config={CATALOGS[tab]} />
+        )}
       </main>
     </LangContext.Provider>
   )
@@ -43,11 +54,11 @@ function Header({ onToggle }: { onToggle: () => void }) {
   )
 }
 
-function TabButton(props: { config: CatalogConfig; active: boolean; onClick: () => void }) {
+function TabButton(props: { label: string; active: boolean; onClick: () => void }) {
   const { t } = useT()
   return (
     <button className={props.active ? 'tab active' : 'tab'} onClick={props.onClick}>
-      {t(props.config.tab)}
+      {t(props.label)}
     </button>
   )
 }

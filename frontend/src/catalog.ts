@@ -43,6 +43,8 @@ export const CATALOGS: CatalogConfig[] = [
       { key: 'manufacturer', type: 'text' },
       { key: 'description', type: 'text' },
       { key: 'thermal_break', type: 'checkbox' },
+      { key: 'sash_overlap_mm', type: 'number', required: true, step: '0.1' },
+      { key: 'glass_bite_mm', type: 'number', required: true, step: '0.1' },
     ],
     columns: ['manufacturer', 'thermal_break'],
   },
@@ -102,6 +104,8 @@ export const DEFAULTS: Record<string, unknown> = {
   category: 'handle',
   unit: 'piece',
   thermal_break: false,
+  sash_overlap_mm: 0,
+  glass_bite_mm: 0,
 }
 
 /** Turn form strings into the JSON the API expects: numbers for number
