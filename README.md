@@ -50,7 +50,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -e '.[dev]'
 alembic upgrade head
 python -m app.seed          # optional: sample catalog to try things out
-python -m app.import_catalog   # load real catalogues (Alupco Saraya 100 so far)
+python -m app.import_catalog   # load real catalogues (Alupco Saraya, 45, 52, ALUPCOtherm 123 and 97 SL)
 uvicorn app.main:app --reload
 
 # 3. Front end (http://localhost:5173)

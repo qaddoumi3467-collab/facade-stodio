@@ -4,7 +4,7 @@ Run with ``python -m app.import_catalog alupco_saraya_100``. Each catalogue
 is a CSV of profiles typed in from the manufacturer's printed catalogue,
 plus the system it belongs to (listed in ``CATALOGUES`` below).
 
-Profiles that already exist (same article number) are left alone, so it is
+Profiles that already exist in the system (same article number) are left alone, so it is
 safe to run more than once. Profiles whose weight is not printed in the
 catalogue are skipped and listed, so they can be added by hand once the
 weight is known.
@@ -32,6 +32,38 @@ CATALOGUES = {
         description="Saraya and Super Saraya sliding windows, KSA market catalogue.",
         thermal_break=False,
     ),
+    "alupco_45": dict(
+        code="ALUPCO-45",
+        name_en="Alupco 45 hinged windows and doors",
+        name_ar="ألوبكو ٤٥ شبابيك وأبواب مفصلية",
+        manufacturer="Alupco",
+        description="45 mm hinged windows and swing doors, KSA market catalogue.",
+        thermal_break=False,
+    ),
+    "alupco_52": dict(
+        code="ALUPCO-52",
+        name_en="Alupco 52 mm hinged windows and doors",
+        name_ar="ألوبكو ٥٢ مم شبابيك وأبواب مفصلية",
+        manufacturer="Alupco",
+        description="52 mm hinged windows and doors, standard and heavy duty 3 mm profiles.",
+        thermal_break=False,
+    ),
+    "alupcotherm_123": dict(
+        code="ALUPCOTHERM-123",
+        name_en="ALUPCOtherm 123 mm thermal sliding windows and doors",
+        name_ar="ألوبكوثيرم ١٢٣ مم شبابيك وأبواب سحاب معزولة حرارياً",
+        manufacturer="Alupco",
+        description="Thermally broken sliding windows and doors, 123 mm frame.",
+        thermal_break=True,
+    ),
+    "alupcotherm_97sl": dict(
+        code="ALUPCOTHERM-97SL",
+        name_en="ALUPCOtherm 97 SL thermal sliding windows",
+        name_ar="ألوبكوثيرم ٩٧ شبابيك سحاب معزولة حرارياً",
+        manufacturer="Alupco",
+        description="Thermally broken sliding windows, 97 mm frame.",
+        thermal_break=True,
+    ),
 }
 
 
@@ -57,7 +89,9 @@ def import_catalogue(session: Session, name: str) -> ImportResult:
         session.add(system)
         session.flush()
 
-    existing = set(session.scalars(select(Profile.article_no)))
+    existing = set(
+        session.scalars(select(Profile.article_no).where(Profile.system_id == system.id))
+    )
     result = ImportResult()
     for row in read_rows(name):
         article_no = row["article_no"]

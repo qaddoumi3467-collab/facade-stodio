@@ -1,0 +1,66 @@
+article_no,name_en,name_ar,role,width_mm,height_mm,weight_kg_per_m,catalogue_page,notes
+11359,Outer frame 80mm with flyscreen track,حلق خارجي ٨٠ مم بمجرى شبك,frame,80,80,1.633,windows 28,cleat 17858; role read from section drawings
+11600,Outer frame 100mm with flyscreen track,حلق خارجي ١٠٠ مم بمجرى شبك,frame,100,80,1.927,windows 28,cleats 17818/17866/17859/17819
+33055,Outer frame 105mm with flyscreen track,حلق خارجي ١٠٥ مم بمجرى شبك,frame,105,75,1.766,windows 29,cleats 17818/17866/17859/17819
+33050,Outer frame 105mm with flyscreen track,حلق خارجي ١٠٥ مم بمجرى شبك,frame,105,50,1.636,windows 29,cleats 17818/17866/17859/17819
+11350,Outer frame 105mm with flyscreen track,حلق خارجي ١٠٥ مم بمجرى شبك,frame,105,69,1.261,windows 30,cleats 17808/17809
+11335,Outer frame 120mm with flyscreen track,حلق خارجي ١٢٠ مم بمجرى شبك,frame,120,79.5,1.393,windows 30,cleat 17806
+11353,Sash,ضلفة,sash,52,44.6,1.145,windows 31,cleat 17858
+33061,Sash,ضلفة,sash,52,74.2,1.291,windows 31,cleat 17833
+33057,Sash (heavy),ضلفة (ثقيلة),sash,45,97,1.364,windows 31,cleat 17845; role inferred
+33066,Sash,ضلفة,sash,52,66.6,1.156,windows 31,cleat 17858
+11355,Glazing bead,كلبس زجاج,glazing_bead,9.8,22,0.182,windows 32,glass thickness not stated
+11254,Glazing bead,كلبس زجاج,glazing_bead,14.5,22,0.289,windows 32,glass thickness not stated
+11308,Glazing bead,كلبس زجاج,glazing_bead,17.2,22,0.321,windows 32,glass thickness not stated
+32059,Glazing bead,كلبس زجاج,glazing_bead,10,22,0.270,windows 32,used with 24mm double glass in sections
+11305,Glazing bead,كلبس زجاج,glazing_bead,14.5,22,0.273,windows 32,glass thickness not stated
+11357,Glazing bead,كلبس زجاج,glazing_bead,25.8,22,0.265,windows 32,glass thickness not stated
+11256,Glazing bead,كلبس زجاج,glazing_bead,10,22,0.251,windows 32,glass thickness not stated
+11332,Glazing bead,كلبس زجاج,glazing_bead,14.5,22,0.265,windows 32,glass thickness not stated
+18580,Glazing bead,كلبس زجاج,glazing_bead,18.5,22,0.239,windows 32,glass thickness not stated
+11307,Glazing bead,كلبس زجاج,glazing_bead,10,22,0.227,windows 32,glass thickness not stated
+18581,Glazing bead,كلبس زجاج,glazing_bead,11.8,22,0.212,windows 32,glass thickness not stated
+11603,Glazing bead,كلبس زجاج,glazing_bead,16.8,22,0.212,windows 32,used with 24mm double glass in sections
+33060,Glazing bead,كلبس زجاج,glazing_bead,7.5,22,0.254,windows 32,glass thickness not stated
+11334,Glazing bead,كلبس زجاج,glazing_bead,9.8,22,0.219,windows 32,glass thickness not stated
+11362,Glazing bead,كلبس زجاج,glazing_bead,15.8,22,0.200,windows 32,glass thickness not stated
+18579,Glazing bead,كلبس زجاج,glazing_bead,26,22,0.296,windows 33,glass thickness not stated
+11255,Glazing bead,كلبس زجاج,glazing_bead,26,22,0.311,windows 33,glass thickness not stated
+32053,Glazing bead,كلبس زجاج,glazing_bead,26,22,0.297,windows 33,glass thickness not stated
+11306,Glazing bead,كلبس زجاج,glazing_bead,26,22,0.289,windows 33,glass thickness not stated
+11333,Glazing bead,كلبس زجاج,glazing_bead,26,22,0.281,windows 33,glass thickness not stated
+18578,Glazing bead,كلبس زجاج,glazing_bead,37,22,0.341,windows 33,glass thickness not stated
+11368,Glazing bead,كلبس زجاج,glazing_bead,33,22,0.385,windows 33,glass thickness not stated
+11360,Mullion / transom T 84.5mm,قاطع تي ٨٤٫٥ مم,transom,45,84.5,1.349,windows 33,used as transom in sections; also mullion
+33058,Mullion / transom T 71.6mm,قاطع تي ٧١٫٦ مم,transom,45,71.6,1.215,windows 33,also mullion
+17859,Cleat,زاوية تجميع,cleat,62,62,2.452,windows 34,shared with Saraya
+17866,Cleat,زاوية تجميع,cleat,60,60,1.939,windows 34,shared with Saraya
+17818,Cleat,زاوية تجميع,cleat,60,60,3.051,windows 34,shared with Saraya
+17819,Cleat,زاوية تجميع,cleat,60,60,3.785,windows 34,shared with Saraya
+26605,Cleat,زاوية تجميع,cleat,60,60,2.530,windows 34,shared with Saraya
+17809,Cleat,زاوية تجميع,cleat,65,65,1.963,windows 34,shared with Saraya
+17808,Cleat,زاوية تجميع,cleat,60,60,2.225,windows 34,shared with Saraya
+17806,Cleat,زاوية تجميع,cleat,65,65,1.839,windows 35,
+17858,Cleat,زاوية تجميع,cleat,70.5,70.5,1.399,windows 35,
+17845,Cleat,زاوية تجميع,cleat,110,110,5.862,windows 35,
+17833,Cleat,زاوية تجميع,cleat,90,90,7.236,windows 35,
+18562,Door frame 105mm,حلق باب ١٠٥ مم,frame,105,62,2.616,doors 98,cleat 17870
+18553,Door frame 105mm with 40mm architrave,حلق باب ١٠٥ مم ببرواز ٤٠ مم,frame,105,102,2.987,doors 98,cleat 17870
+18551,Door leaf stile,قائم ضلفة باب,sash,52,94,2.028,doors 99,cleat 29007
+18557,Door leaf stile,قائم ضلفة باب,sash,52,94,2.033,doors 99,cleat 29007
+18566,Door leaf stile,قائم ضلفة باب,sash,52,93.75,2.012,doors 99,cleat 29007 or 23423
+18565,Door leaf stile,قائم ضلفة باب,sash,52,93.75,2.032,doors 99,cleat 29007 or 23423
+18552,Door leaf bottom rail 160mm,سفلي ضلفة باب ١٦٠ مم,sash,52,160,3.394,doors 100,
+18563,Door leaf bottom rail 160mm,سفلي ضلفة باب ١٦٠ مم,sash,45,160,3.332,doors 100,
+18550,Door leaf 65mm,ضلفة باب ٦٥ مم,sash,45,65,1.612,doors 100,cleat 17872
+18564,Door threshold,عتبة باب,threshold,45,52,1.310,doors 100,role inferred
+18559,Door leaf middle rail 120mm,وسطي ضلفة باب ١٢٠ مم,sash,52,120,2.503,doors 101,role inferred
+18558,Door leaf middle rail 120mm,وسطي ضلفة باب ١٢٠ مم,sash,45,120,2.489,doors 101,role inferred
+18556,Door frame mullion / transom,قاطع حلق باب,transom,105,84,3.035,doors 101,role inferred
+18555,Door profile 62mm,قطاع باب ٦٢ مم,other,45,62,1.539,doors 102,role not stated in catalogue
+18561,Door profile 76mm,قطاع باب ٧٦ مم,other,45,76,1.799,doors 102,role not stated in catalogue
+32401,Water deflector,مانع ماء,other,20,14,0.221,doors 103,role not stated in catalogue
+17870,Cleat for door frame,زاوية تجميع لحلق الباب,cleat,90,90,2.759,doors 104,
+29007,Cleat for door leaf,زاوية تجميع لضلفة الباب,cleat,85,85,4.747,doors 104,
+17872,Cleat for door leaf 18550,زاوية تجميع لضلفة الباب 18550,cleat,90,90,2.795,doors 104,
+23423,Cleat for door leaf,زاوية تجميع لضلفة الباب,cleat,85,85,3.307,doors 104,

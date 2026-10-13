@@ -1,0 +1,80 @@
+article_no,name_en,name_ar,role,width_mm,height_mm,weight_kg_per_m,catalogue_page,notes
+32404,Frame,حلق,frame,52,56,0.988,2,
+32405,Frame,حلق,frame,52,56,1.110,2,
+32406,T profile 78mm,قطاع تي ٧٨ مم,transom,52,78,1.110,2,mullion or transom
+32407,T profile 110mm,قطاع تي ١١٠ مم,transom,52,110,1.523,2,mullion or transom
+32411,Shutter,ضلفة,sash,60,41,1.040,2,
+32412,Shutter,ضلفة,sash,60,56,1.299,2,
+32413,Shutter,ضلفة,sash,60,78,1.574,2,
+32459,Shutter,ضلفة,sash,60,78,1.291,3,
+32408,Midrail / kickplate,وسطي / لوح سفلي,sash,52,150,1.912,3,door leaf rail
+32410,Kickplate,لوح سفلي للباب,sash,52,144,1.979,3,door leaf bottom rail
+32467,Adaptor,محول,adaptor,52,50.8,0.665,3,
+32461,Adaptor,محول,adaptor,50.2,43.8,0.548,3,
+32464,Box frame,حلق بوكس,frame,105,37,1.663,3,
+32465,Box T profile,تي بوكس,transom,105,38,1.793,3,
+32409,Box T profile,تي بوكس,transom,82,38,1.804,4,
+35439,Decorative box frame,حلق بوكس ديكور,frame,105,51.4,1.826,4,
+35440,Decorative box frame,حلق بوكس ديكور,frame,105,91.4,2.025,4,
+32419,Door frame / shutter,حلق باب / ضلفة,frame,52,72,1.517,4,used as door frame or door leaf
+32418,Door frame / shutter,حلق باب / ضلفة,frame,52,94,1.517,4,used as door frame or door leaf
+35477,Door frame / shutter,حلق باب / ضلفة,frame,52,72,1.681,4,used as door frame or door leaf
+35478,Door frame / shutter,حلق باب / ضلفة,frame,52,94,1.681,4,used as door frame or door leaf
+32414,Adaptor,محول,adaptor,39,44,0.932,5,
+32426,Adaptor,محول,adaptor,61,52,1.058,5,
+32398,90 degree box corner,زاوية بوكس ٩٠ درجة,coupling,60.5,60.5,1.069,5,
+32399,135 degree box corner,زاوية بوكس ١٣٥ درجة,coupling,27.8,27.8,0.729,5,
+35488,External corner,زاوية خارجية,coupling,52,58.8,1.031,5,
+35489,Internal corner,زاوية داخلية,coupling,52,77,1.031,5,
+64035,Circular tube 50.8mm x 1.5mm,ماسورة دائرية ٥٠٫٨ × ١٫٥ مم,other,50.8,50.8,0.648,5,
+32468,Shutter,ضلفة,sash,52,85.2,1.336,6,
+32448,T cleat,زاوية تجميع تي,cleat,47.8,55.5,1.706,6,
+32400,Adaptor,محول,adaptor,39.6,15,0.367,6,
+35487,Adaptor,محول,adaptor,39.6,15,0.405,6,
+34271,Decorative architrave,برواز ديكور,other,40.8,26.4,0.405,6,
+35470,Decorative architrave,برواز ديكور,other,40.8,24.5,0.368,6,
+32401,Water deflector,مانع ماء,other,14,20,0.221,6,also used in Alupco 45 doors
+32430,Adaptor for weathering,محول عازل للمطر,adaptor,22,30.2,0.313,7,
+32395,Adaptor,محول,adaptor,22,8,0.197,7,face width estimated from drawing
+32402,Guide profile,قطاع دليل,other,5,19.6,0.151,7,
+32403,Guide profile,قطاع دليل,other,5,14.1,0.127,7,
+32396,Guide profile,قطاع دليل,other,9.5,9.7,0.092,7,
+32394,Glazing bead,كلبس زجاج,glazing_bead,19.8,9.6,0.221,7,glass thickness not stated
+32415,Glazing bead,كلبس زجاج,glazing_bead,19.8,15.6,0.238,7,glass thickness not stated
+35441,Glazing bead,كلبس زجاج,glazing_bead,19.8,15.9,0.224,8,glass thickness not stated
+32460,Glazing bead,كلبس زجاج,glazing_bead,19.8,23.9,0.259,8,glass thickness not stated
+32416,Glazing bead,كلبس زجاج,glazing_bead,19.8,27.9,0.278,8,glass thickness not stated
+32417,Glazing bead,كلبس زجاج,glazing_bead,19.8,30.9,0.286,8,glass thickness not stated
+32397,Glazing bead,كلبس زجاج,glazing_bead,19.8,33.9,0.297,8,glass thickness not stated
+32420,Clip to 32404,كلبس للحلق 32404,other,10,52,0.365,9,cover clip for frame 32404
+32421,Clip to 32404,كلبس للحلق 32404,other,10,52,0.392,9,cover clip for frame 32404
+32422,Clip to 32404,كلبس للحلق 32404,other,10,52,0.348,9,cover clip for frame 32404
+32423,Clip to 32404,كلبس للحلق 32404,other,10,52,0.324,9,cover clip for frame 32404
+32424,Clip to 32404,كلبس للحلق 32404,other,10,52,0.518,9,cover clip for frame 32404
+32425,Clip to 32404,كلبس للحلق 32404,other,10,52,0.448,9,cover clip for frame 32404
+24028,Cleat,زاوية تجميع,cleat,57.8,20,2.109,22,
+17801,Cleat,زاوية تجميع,cleat,50,4.9,1.151,22,
+17805,Cleat,زاوية تجميع,cleat,42.5,7,1.067,22,
+17814,Cleat,زاوية تجميع,cleat,65,10,2.651,22,
+34221,Cleat,زاوية تجميع,cleat,60,25,2.608,22,
+17835,Cleat,زاوية تجميع,cleat,95,21.7,4.315,22,
+17845,Cleat,زاوية تجميع,cleat,110,40.2,5.862,23,also in Alupco 45
+17848,Cleat,زاوية تجميع,cleat,115,45.2,6.396,23,
+35460,Frame (heavy duty 3mm),حلق (ثقيل ٣ مم),frame,52,59,1.652,HD 2,
+35461,Frame (heavy duty 3mm),حلق (ثقيل ٣ مم),frame,52,81,1.848,HD 2,
+35481,T profile (heavy duty 3mm),قطاع تي (ثقيل ٣ مم),transom,52,81,1.915,HD 2,mullion or transom
+35482,Projecting window shutter (heavy duty 3mm),ضلفة شباك بروجكتد (ثقيل ٣ مم),sash,60,89.5,2.031,HD 2,
+35474,Window shutter (heavy duty 3mm),ضلفة شباك (ثقيل ٣ مم),sash,60,44,1.748,HD 2,
+35480,Box frame with architrave (heavy duty 3mm),حلق بوكس ببرواز (ثقيل ٣ مم),frame,105,90,3.081,HD 2,
+35462,Decorative box frame (heavy duty 3mm),حلق بوكس ديكور (ثقيل ٣ مم),frame,105,90,3.115,HD 3,
+35465,Midrail / kickplate (heavy duty 3mm),وسطي / لوح سفلي (ثقيل ٣ مم),sash,52,150,3.076,HD 3,door leaf rail
+35484,Adaptor (heavy duty 3mm),محول (ثقيل ٣ مم),adaptor,50.8,52,0.966,HD 3,
+35483,Adaptor (heavy duty 3mm),محول (ثقيل ٣ مم),adaptor,43.8,49.2,0.894,HD 3,
+35463,Door frame / shutter (heavy duty 3mm),حلق باب / ضلفة (ثقيل ٣ مم),frame,52,72,2.155,HD 3,used as door frame or door leaf
+35464,Door frame / shutter (heavy duty 3mm),حلق باب / ضلفة (ثقيل ٣ مم),frame,52,94,2.155,HD 3,used as door frame or door leaf
+35485,Swing door shutter (heavy duty 3mm),ضلفة باب مفصلي (ثقيل ٣ مم),sash,52,85.2,1.959,HD 4,
+35476,T cleat for 3mm profiles,زاوية تجميع تي لقطاعات ٣ مم,cleat,45.2,55.5,1.483,HD 4,
+17844,Corner cleat,زاوية تجميع,cleat,110.5,38.3,5.794,HD 7,
+17871,Corner cleat,زاوية تجميع,cleat,90,31.5,2.859,HD 7,
+17869,Corner cleat,زاوية تجميع,cleat,90,28.5,2.824,HD 7,
+17800,Corner cleat,زاوية تجميع,cleat,60,3.9,1.058,HD 8,
