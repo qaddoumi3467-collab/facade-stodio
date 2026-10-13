@@ -48,3 +48,9 @@ def test_shared_articles_load_into_each_system(session):
     therm = session.scalar(select(Profile).where(Profile.article_no == "TS1109"))
     assert therm.system.thermal_break
     assert float(therm.width_mm) == 123
+
+
+def test_curtain_wall_has_mullions_and_transoms(session):
+    import_catalogue(session, "alupco_sg50")
+    roles = set(session.scalars(select(Profile.role)))
+    assert {ProfileRole.mullion, ProfileRole.transom} <= roles
