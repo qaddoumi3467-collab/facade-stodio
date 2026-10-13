@@ -34,3 +34,17 @@ def test_import_saraya(session):
     assert len(again.already_there) == len(result.added)
     count = session.scalar(select(func.count()).select_from(Profile))
     assert count == len(result.added)
+
+
+def test_shared_articles_load_into_each_system(session):
+    # Cleat 17866 is printed in Saraya, Alupco 45 and ALUPCOtherm 97 SL.
+    for name in CATALOGUES:
+        import_catalogue(session, name)
+    cleats = session.scalars(select(Profile).where(Profile.article_no == "17866")).all()
+    assert {c.system.code for c in cleats} == {
+        "ALUPCO-SARAYA-100", "ALUPCO-45", "ALUPCOTHERM-97SL"
+    }
+
+    therm = session.scalar(select(Profile).where(Profile.article_no == "TS1109"))
+    assert therm.system.thermal_break
+    assert float(therm.width_mm) == 123

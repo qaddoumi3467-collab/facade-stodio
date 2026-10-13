@@ -9,7 +9,7 @@ from decimal import Decimal
 
 from datetime import datetime
 
-from sqlalchemy import DateTime, Enum, ForeignKey, Numeric, String, Text, func
+from sqlalchemy import DateTime, Enum, ForeignKey, Numeric, String, Text, UniqueConstraint, func
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -81,12 +81,17 @@ class Profile(Base):
     """An aluminium extrusion sold in bars."""
 
     __tablename__ = "profiles"
+    # Manufacturers reuse the same article (a corner cleat, a glazing bead)
+    # across several of their systems, so numbers are unique per system.
+    __table_args__ = (
+        UniqueConstraint("system_id", "article_no", name="profiles_system_id_article_no_key"),
+    )
 
     id: Mapped[int] = mapped_column(primary_key=True)
     system_id: Mapped[int] = mapped_column(
         ForeignKey("profile_systems.id", ondelete="RESTRICT"), index=True
     )
-    article_no: Mapped[str] = mapped_column(String(64), unique=True)
+    article_no: Mapped[str] = mapped_column(String(64))
     name_en: Mapped[str] = mapped_column(String(200))
     name_ar: Mapped[str] = mapped_column(String(200))
     role: Mapped[ProfileRole] = mapped_column(_enum(ProfileRole))

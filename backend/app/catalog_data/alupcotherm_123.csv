@@ -1,0 +1,42 @@
+article_no,name_en,name_ar,role,width_mm,height_mm,weight_kg_per_m,catalogue_page,notes
+TS1109,Frame 123mm all around for windows (45 degree joint),حلق ١٢٣ مم من جميع الجهات للشبابيك (تجميع ٤٥ درجة),frame,123,74,2.959,13,thermal break C-16; cleat 17864
+TS1119,Frame 123mm all around for windows without casing (45 degree joint),حلق ١٢٣ مم من جميع الجهات للشبابيك بدون برواز (تجميع ٤٥ درجة),frame,123,44,2.767,13,thermal break C-16; cleat 17864
+TS1111,Frame 123mm for arch (45 degree joint),حلق ١٢٣ مم للقوس (تجميع ٤٥ درجة),frame,123,47.5,1.658,13,thermal break C-16; cleat 17864
+TS1120,Frame adaptor 110mm for windows fixed light,محول حلق ١١٠ مم للزجاج الثابت,adaptor,110,63,3.037,13,thermal break C-16
+TS1121,Glazing adaptor 110mm for fixed light,محول زجاج ١١٠ مم للزجاج الثابت,adaptor,110,38,1.547,13,thermal break C-16
+TS1101,Frame head and sill 123mm for windows / head for doors (90 degree joint),علوي وسفلي حلق ١٢٣ مم للشبابيك / علوي للأبواب (تجميع ٩٠ درجة),frame,123,74,3.070,13,thermal break C-16
+TS1106,Frame sill 123mm for doors (90 degree joint),سفلي حلق ١٢٣ مم للأبواب (تجميع ٩٠ درجة),threshold,123,36,2.687,13,thermal break I-16 and C-16
+TS1103,Continuous frame jamb 123mm for windows and doors with arch,قائم حلق متصل ١٢٣ مم للشبابيك والأبواب مع قوس,frame,123.4,57,1.479,13,thermal break C-16
+TS1104,Frame 123mm for fixed light,حلق ١٢٣ مم للزجاج الثابت,frame,123,52,2.273,14,thermal break C-16
+TS1105,Adaptor 123mm for windows and doors with arch / fixed light (90 degree joint),محول ١٢٣ مم للشبابيك والأبواب مع قوس / زجاج ثابت (تجميع ٩٠ درجة),adaptor,123,52,3.269,14,thermal break C-16
+TS1002,Frame head water drip,مقطر ماء لعلوي الحلق,other,14.3,42.7,0.248,14,for TS1101/TS1105/TS1109/TS1119
+TS1112,Frame head water drip for arch / fixed light,مقطر ماء لعلوي الحلق للقوس / الزجاج الثابت,other,61.5,50,0.546,14,for TS1119
+TS1012,Adjoining profile for arch / fixed light,قطاع وصل للقوس / الزجاج الثابت,other,22.3,14,0.151,14,for TS1119
+TS1015,Adjoining profile to TS1103,قطاع وصل للقطاع TS1103,other,24.8,17,0.276,14,
+TS1108,Adjoining profile to TS1103 for arch,قطاع وصل للقطاع TS1103 للقوس,other,34.3,10,0.316,14,
+TS1107,Adjoining profile to TS1103 for arch,قطاع وصل للقطاع TS1103 للقوس,other,57,20,0.726,14,
+TS1025,Midrail,وسطي,sash,40,85,1.253,15,thermal break C-16
+TS1003,Shutter 1.5mm,ضلفة ١٫٥ مم,sash,40,75,1.128,15,thermal break C-16; drawing page shows 1138 g/m; cleat 17865
+TS1114,Shutter 2mm,ضلفة ٢ مم,sash,40,75,1.355,15,thermal break C-16; drawing page shows 1364 g/m; cleat 32608
+TS1122,Symmetrical shutter 2mm,ضلفة متماثلة ٢ مم,sash,40,75,1.384,15,thermal break C-16; drawing page shows 1406 g/m; cleat 17822
+TS1022,Shutter 1.5mm with glazing bead,ضلفة ١٫٥ مم مع كلبس زجاج,sash,40,75,1.037,15,thermal break C-16; drawing page shows 1048 g/m; cleat 17865
+TS1115,Shutter 2mm with glazing bead,ضلفة ٢ مم مع كلبس زجاج,sash,40,75,1.237,15,thermal break C-16; drawing page shows 1248 g/m; cleat 32608
+TS1004,Interlock 1.5mm,انترلوك ١٫٥ مم,interlock,48,43.2,0.494,15,for TS1114/TS1115/TS1003/TS1022
+TS1021,Meeting stile,قائم التقاء,interlock,26.8,36.2,0.427,15,for 3 and 4 panel windows / doors
+TS1009,T profile for arch / fixed light,قطاع تي للقوس / الزجاج الثابت,transom,57,60,1.038,16,with TS1104/TS1105/TS1107/TS1108; thermal break C-16
+TS1010,Glazing bead for fixed light,كلبس زجاج للزجاج الثابت,glazing_bead,23.5,20,0.267,16,for TS1104/TS1105/TS1108/TS1111/TS1009
+80135,Glazing bead for fixed light,كلبس زجاج للزجاج الثابت,glazing_bead,36,20,0.421,P7,for TS1104/TS1105/TS1108/TS1111/TS1120/TS1121
+TS1023,Glazing bead for shutter,كلبس زجاج للضلفة,glazing_bead,6.6,18,0.178,16,for TS1022/TS1115
+TS1005,Flyscreen shutter,ضلفة شبك,flyscreen,16.5,67,0.645,16,cleat 17811
+62001,Tube 20x5x1.2,مربع ٢٠×٥×١٫٢,other,20,5,0.146,16,also in Saraya
+TS1026,Reinforcing profile / handle,قطاع تقوية / مقبض,other,58.3,42,1.613,16,
+TS1029,Reinforcing profile / handle for the interlock,قطاع تقوية / مقبض للانترلوك,other,68.3,42,3.205,16,
+TS1027,Cover to TS1026 and TS1029,غطاء للقطاع TS1026 و TS1029,other,25.3,25.3,0.119,16,
+32401,Water deflector,مانع ماء,other,14,20,0.221,17,also in Alupco 45 / 52
+17864,Cleat for TS1109 TS1111 TS1119,زاوية تجميع للقطاع TS1109 و TS1111 و TS1119,cleat,60,8.1,1.274,17,use with Concressive 2200 glue
+17865,Cleat for TS1003 TS1022,زاوية تجميع للقطاع TS1003 و TS1022,cleat,70,11.8,2.238,17,use with Concressive 2200 glue
+32608,Cleat for TS1114 TS1115,زاوية تجميع للقطاع TS1114 و TS1115,cleat,60,10.7,1.574,17,use with Concressive 2200 glue
+17811,Cleat for TS1005,زاوية تجميع للقطاع TS1005,cleat,60,9.6,2.695,17,also in Saraya
+17822,Cleat for TS1122,زاوية تجميع للقطاع TS1122,cleat,80,15.4,4.566,17,use with Concressive 2200 glue
+32644,Dust plug and weather seal for windows,مانع غبار وعازل مطر للشبابيك,other,120,10,0.684,18,Saraya catalogue prints 699 g/m
+23331,Dust plug and weather seal for doors,مانع غبار وعازل مطر للأبواب,other,80,6.2,0.405,18,

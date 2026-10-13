@@ -1,0 +1,22 @@
+article_no,name_en,name_ar,role,width_mm,height_mm,weight_kg_per_m,catalogue_page,notes
+TS1419,Frame with 30mm architrave,حلق ببرواز ٣٠ مم,frame,97,72,2.523,8,thermal break C-16; cleat 17864
+TS1426,Frame without architrave,حلق بدون برواز,frame,97,40,2.327,8,thermal break C-16; cleat 17864
+TS1421,Frame with 39mm decorative architrave,حلق ببرواز ديكور ٣٩ مم,frame,97,81,2.621,8,thermal break C-16; cleat 17864
+TS1420,Shutter 2mm,ضلفة ٢ مم,sash,35,70,1.286,8,thermal break C-16; cleat 17858
+TS1313,Shutter 1.5mm,ضلفة ١٫٥ مم,sash,35,69,1.046,8,thermal break C-16; cleat 17866
+TS1304,Shutter 1.5mm,ضلفة ١٫٥ مم,sash,35,69,0.983,8,thermal break C-16; cleat 17866
+TS1305,Interlock,انترلوك,interlock,41.8,40.7,0.356,8,assembled with TS1420
+TS1207,Flyscreen shutter,ضلفة شبك,flyscreen,16.5,50.2,0.505,8,cleat 17866
+TS1423,Frame for arch / fixed light,حلق للقوس / الزجاج الثابت,frame,97,37.5,1.250,9,thermal break C-16; cleat 17864
+TS1424,Frame with 30mm architrave for arch / fixed light,حلق ببرواز ٣٠ مم للقوس / الزجاج الثابت,frame,97,67.5,1.443,9,thermal break C-16; cleat 17864
+TS1422,Frame adaptor for windows with arch / fixed light,محول حلق للشبابيك مع قوس / زجاج ثابت,adaptor,97,59.5,2.484,9,thermal break C-16
+TS1425,Glazing adaptor for arch / fixed light,محول زجاج للقوس / الزجاج الثابت,adaptor,97,30,1.239,9,thermal break C-16
+TS1012,Adjoining profile for arch / fixed light,قطاع وصل للقوس / الزجاج الثابت,other,22.3,14,0.151,9,also in ALUPCOtherm 123
+80511,Glazing bead,كلبس زجاج,glazing_bead,22.5,20,0.248,9,glass thickness not stated
+80514,Glazing bead,كلبس زجاج,glazing_bead,22.5,20,0.248,9,glass thickness not stated
+TS1010,Glazing bead,كلبس زجاج,glazing_bead,23.5,20,0.267,9,index lists it under die number 80015; also in ALUPCOtherm 123
+17864,Cleat for frames,زاوية تجميع للحلوق,cleat,60,8.1,1.274,10,also in ALUPCOtherm 123
+17858,Cleat for TS1420,زاوية تجميع للقطاع TS1420,cleat,70.5,13.2,1.399,10,also in Alupco 45
+17866,Cleat for TS1207,زاوية تجميع للقطاع TS1207,cleat,60,13.7,1.939,10,also in Saraya / Alupco 45
+32644,Dust plug and weather seal for windows,مانع غبار وعازل مطر للشبابيك,other,120,10,0.684,10,Saraya catalogue prints 699 g/m
+62001,Tube 20x5x1.2,مربع ٢٠×٥×١٫٢,other,20,5,0.146,10,for 4-panel window flyscreen
