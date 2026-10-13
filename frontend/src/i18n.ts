@@ -59,6 +59,10 @@ const en = {
   'role.glazing_bead': 'Glazing bead',
   'role.threshold': 'Threshold',
   'role.coupling': 'Coupling',
+  'role.interlock': 'Interlock',
+  'role.adaptor': 'Adaptor',
+  'role.cleat': 'Corner cleat',
+  'role.flyscreen': 'Flyscreen',
   'role.other': 'Other',
 
   'category.handle': 'Handle',
@@ -215,6 +219,10 @@ const ar: Record<MessageKey, string> = {
   'role.glazing_bead': 'كلبس زجاج',
   'role.threshold': 'عتبة',
   'role.coupling': 'وصلة',
+  'role.interlock': 'انترلوك',
+  'role.adaptor': 'محول',
+  'role.cleat': 'زاوية تجميع',
+  'role.flyscreen': 'شبك',
   'role.other': 'أخرى',
 
   'category.handle': 'مقبض',

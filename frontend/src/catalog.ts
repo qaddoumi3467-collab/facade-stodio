@@ -28,7 +28,7 @@ const names: Field[] = [
   { key: 'name_ar', type: 'text', required: true },
 ]
 
-export const ROLES = ['frame', 'sash', 'mullion', 'transom', 'glazing_bead', 'threshold', 'coupling', 'other']
+export const ROLES = ['frame', 'sash', 'mullion', 'transom', 'glazing_bead', 'threshold', 'coupling', 'interlock', 'adaptor', 'cleat', 'flyscreen', 'other']
 export const CATEGORIES = ['handle', 'hinge', 'lock', 'gasket', 'corner_cleat', 'roller', 'accessory', 'other']
 export const UNITS = ['piece', 'set', 'metre']
 
