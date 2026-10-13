@@ -1,0 +1,16 @@
+article_no,name_en,name_ar,role,width_mm,height_mm,weight_kg_per_m,catalogue_page,notes
+TS3007,"Frame 123mm head, sill and jambs for windows and doors (45 degree joint)",حلق ١٢٣ مم علوي وسفلي وجوانب للشبابيك والأبواب (تجميع ٤٥ درجة),frame,123,74,4.035,7,polyamide thermal break (type not printed); half-dies K130775/K130776; cleats 34150 and 17803 (per p2 section); die not ordered
+TS3009,Frame 123mm without architrave,حلق ١٢٣ مم بدون برواز,frame,123,46,3.763,7,no caption printed - name and role inferred (TS3007 without 30mm architrave); polyamide thermal break; half-dies K131157/K130776; die not ordered
+TS3008,Frame 123mm for arch,حلق ١٢٣ مم للقوس,frame,123,47,2.298,8,polyamide thermal break; half-dies K130777/K130778; cleat 17802; die not ordered
+TS3010,Frame 123mm for arch without architrave,حلق ١٢٣ مم للقوس بدون برواز,frame,123,17,2.026,8,same caption as TS3008 but without 30mm architrave; polyamide thermal break; half-dies K131158/K130778; cleat 17802; die not ordered
+TS3006,Adaptor for windows and doors with fixed light (90 degree joint),محول للشبابيك والأبواب مع زجاج ثابت (تجميع ٩٠ درجة),adaptor,110.5,52,4.211,9,printed depth 110.5 despite 123mm caption; polyamide thermal break; half-dies K90346/K90347; die not ordered
+TS1112,Frame head water drip for arch / fixed light,مقطر ماء لعلوي الحلق للقوس / الزجاج الثابت,other,61.5,50,0.546,9,printed as 546 gr/m; same article as standard 123 system
+TS1121,Frame adaptor 110mm for windows fixed light,محول حلق ١١٠ مم للزجاج الثابت,adaptor,110,38,1.547,9,2mm wall (not 3mm); hatched thermal break (type not printed); halves 80132 (664 g/m) + 80131 (883 g/m); same article as standard 123 system
+TS1002,Frame head water drip,مقطر ماء لعلوي الحلق,other,14.3,42.7,0.248,10,for TS3001/TS3006 (TS3001 not shown in this catalogue); same article as standard 123 system
+TS1010,Glazing bead for fixed light,كلبس زجاج للزجاج الثابت,glazing_bead,23.5,20,0.267,10,same article as standard 123 system
+TS1012,Adjoining profile for arch / fixed light,قطاع وصل للقوس / الزجاج الثابت,other,22.3,14,0.151,10,same article as standard 123 system
+TS3004,Interlock 3mm,انترلوك ٣ مم,interlock,48.5,44.8,0.755,10,no caption printed - role inferred (interlock position on p5 section); half-die K90343; die not ordered
+TS3003,Shutter 3mm,ضلفة ٣ مم,sash,40,75,1.816,10,no caption printed - role inferred (sash on p2/p5 sections); polyamide thermal break; half-die K90341; cleat 17858; die not ordered
+17803,Cleat for TS3007,زاوية تجميع للقطاع TS3007,cleat,60,6,1.509,10,role per p2 section label
+34150,Cleat for TS3007,زاوية تجميع للقطاع TS3007,cleat,59.6,10.5,1.309,10,role per p2 section label
+17858,Cleat for TS3003,زاوية تجميع للقطاع TS3003,cleat,70.5,13.2,1.399,10,

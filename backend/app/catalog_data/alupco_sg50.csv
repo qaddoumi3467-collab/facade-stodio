@@ -1,0 +1,133 @@
+article_no,name_en,name_ar,role,width_mm,height_mm,weight_kg_per_m,catalogue_page,notes
+32498,Mullion 50mm,قائم ٥٠ مم,mullion,50,50,1.718,84,
+35408,Mullion 55mm,قائم ٥٥ مم,mullion,55,50,2.146,84,
+35416,Mullion 75mm,قائم ٧٥ مم,mullion,75,50,1.995,84,
+35514,Mullion 75mm,قائم ٧٥ مم,mullion,75,50,4.039,84,heavy-wall variant of 35416
+32376,Mullion 95mm,قائم ٩٥ مم,mullion,95,50,2.257,84,
+35404,Half mullion 95mm,نصف قائم ٩٥ مم,mullion,95,30,1.704,84,half mullion; face 30 as drawn
+32457,Mullion 105mm,قائم ١٠٥ مم,mullion,105,50,2.603,84,
+32458,Mullion 120mm,قائم ١٢٠ مم,mullion,120,50,2.824,84,
+35521,Half mullion 120mm,نصف قائم ١٢٠ مم,mullion,120,30,2.139,84,half mullion; face 30 as drawn
+32377,Mullion 135mm,قائم ١٣٥ مم,mullion,135,50,2.986,84,
+32497,Mullion 145mm,قائم ١٤٥ مم,mullion,145,50,3.156,84,
+32499,Mullion 145mm,قائم ١٤٥ مم,mullion,145,50,4.651,84,heavy-wall variant of 32497
+35430,Mullion 170mm,قائم ١٧٠ مم,mullion,170,50,3.454,84,
+35513,Mullion 170mm,قائم ١٧٠ مم,mullion,170,50,6.318,85,heavy-wall variant of 35430
+32490,90° corner mullion 170mm,قائم زاوية ٩٠ درجة ١٧٠ مم,mullion,170,50,3.497,85,wall from 1:1 drawing
+32393,Mullion 195mm,قائم ١٩٥ مم,mullion,195,50,3.988,85,wall from 1:1 drawing
+35537,Mullion 250mm,قائم ٢٥٠ مم,mullion,250,50,5.573,85,wall from 1:1 drawing
+35520,Profile 16x50 (no name printed),قطاع ١٦×٥٠ (بدون اسم في الكتالوج),mullion,16,50,0.951,85,no description printed; 16x50 mullion-type section; role inferred
+32379,90° corner mullion 95mm,قائم زاوية ٩٠ درجة ٩٥ مم,mullion,95,50,3.146,85,L-shaped 95x95 corner
+32469,Split mullion 120mm,قائم مقسوم ١٢٠ مم,mullion,120,26.5,2.878,85,curved; assembly with 32470
+32470,Split mullion 120mm,قائم مقسوم ١٢٠ مم,mullion,120,26.5,2.225,85,curved; assembly with 32469
+35425,Transom 50mm,عارضة ٥٠ مم,transom,50,50,1.215,86,wall from 1:1 drawing
+32466,Transom 50mm,عارضة ٥٠ مم,transom,50,50,1.566,86,
+35492,Half transom 50mm,نصف عارضة ٥٠ مم,transom,50,30,0.996,86,
+35417,Transom 75mm,عارضة ٧٥ مم,transom,75,50,1.868,86,
+35418,Half transom 75mm,نصف عارضة ٧٥ مم,transom,75,30,1.517,86,
+32371,Transom 95mm,عارضة ٩٥ مم,transom,95,50,2.084,86,
+35401,Half transom 95mm,نصف عارضة ٩٥ مم,transom,95,30,1.733,86,
+32471,Transom 105mm,عارضة ١٠٥ مم,transom,105,50,2.279,86,
+32392,Transom 120mm,عارضة ١٢٠ مم,transom,120,50,2.427,86,
+35522,Half transom 120mm,نصف عارضة ١٢٠ مم,transom,120,30,1.884,86,index Ix/Iy/Wx/Wy identical to half mullion 35521 (possible copy error in catalogue)
+32370,Transom 135mm,عارضة ١٣٥ مم,transom,135,50,2.516,86,
+35469,Transom 145mm,عارضة ١٤٥ مم,transom,145,50,2.852,86,
+35524,Half transom 145mm,نصف عارضة ١٤٥ مم,transom,145,30,2.483,86,
+35431,Transom 170mm,عارضة ١٧٠ مم,transom,170,50,3.162,87,
+35429,Transom 192mm,عارضة ١٩٢ مم,transom,192,50,3.437,87,
+35538,Transom 250mm,عارضة ٢٥٠ مم,transom,250,50,4.903,87,
+32462,Split transom 120mm,عارضة مقسومة ١٢٠ مم,transom,120,40.3,1.752,87,curved; assembly with 32463; 25mm at outer end
+32463,Split transom 120mm,عارضة مقسومة ١٢٠ مم,transom,120,40.3,1.272,87,curved; assembly with 32462; 25mm at outer end
+32380,Expansion sleeve for mullions,جلبة تمدد للقوائم,other,200,44.4,9.013,87,mullion splice/expansion sleeve; dims are sleeve section 200x44.4
+35515,Expansion sleeve for mullions 35514 & 35513,جلبة تمدد للقوائم 35514 و 35513,other,200,41.4,6.492,87,for heavy mullions 35514 and 35513; wall from 1:1 drawing
+35536,Reinforcement for mullions 32393,تقوية للقائم 32393,other,171.3,43.5,4.474,87,insert reinforcement for 195mm mullion 32393; wall from 1:1 drawing
+35437,Bull nose cover cap 100mm,غطاء مقوس ١٠٠ مم,other,100,50,1.318,87,wall from 1:1 drawing
+35517,Rectangular cover cap 150mm,غطاء مستطيل ١٥٠ مم,other,150,50,1.814,87,wall from 1:1 drawing
+35486,Bull nose cover cap 150mm,غطاء مقوس ١٥٠ مم,other,150,50,1.815,87,wall from 1:1 drawing
+35505,Rectangular cover cap 200mm,غطاء مستطيل ٢٠٠ مم,other,200,50,3.534,87,
+35516,Bull nose cover cap 200mm,غطاء مقوس ٢٠٠ مم,other,200,50,3.096,88,wall from 1:1 drawing
+35455,Bull nose cover cap 296mm,غطاء مقوس ٢٩٦ مم,other,296,65,7.223,88,drawing p122 shows 65.03; wall from 1:1 drawing
+35493,Semi structural vent frame / sash (non thermal break),حلق / ضلفة فتحة شبه إنشائية (غير معزولة حرارياً),sash,75.97,24.5,1.128,88,"printed ""Vent framel / sash""; combined frame+sash section; 17.47 leg also marked; face = vertical dim as drawn; accessories index p46 lists it as 1128 g/m with drawing dims 37.98 x 17.98 (half the profile-index dims) and wrong description ""Inner glazing gasket (4mm)""; 1:1 drawing p118 confirms 75.97 x 24.5"
+35495,Nose adaptor for semi structural vent,محول أنف لفتحة شبه إنشائية,adaptor,52,45,0.687,88,13.52 and 12.5 also marked; depth/face orientation assumed; accessories index p46 shows 26 x 22.5 (half the profile-index dims) - scale conflict; 1:1 drawing p118 confirms 52 x 45
+35494,Clamp block for semi structural vent,كلامب لفتحة الزجاج شبه الإنشائي,other,20.31,16.3,0.367,88,small clip; only 3.8 and 2 marked; accessories index p46 shows 10.15 x 7.9 (1.65 lip); 1:1 drawing p118 shows 20.31 x 16.3 (used here)
+17878,Crimping angle for semi structural vent frame / sash,زاوية كبس لحلق / ضلفة الفتحة شبه الإنشائية,cleat,60,60,1.987,88,corner cleat; legs 60 and 13.2 marked
+17858,Crimping angle for semi structural vent frame / sash,زاوية كبس لحلق / ضلفة الفتحة شبه الإنشائية,cleat,70.5,70.5,1.399,88,corner cleat; legs 70.5 and 13.2 marked
+23442,Crimping angle for semi structural vent frame / sash,زاوية كبس لحلق / ضلفة الفتحة شبه الإنشائية,cleat,71.5,71.5,2.368,88,corner cleat; legs 71.5 and 14.9 marked
+32374,Pressure plate,لوح ضغط,other,11,45,0.486,88,
+35454,Pressure plate,لوح ضغط,other,13.7,58,0.603,88,
+35506,Pressure plate,لوح ضغط,other,25,45,0.570,88,
+35428,Pressure plate,لوح ضغط,other,22.1,42.52,0.508,89,T-shaped
+35438,Pressure plate,لوح ضغط,other,31.8,29.1,0.497,89,T-shaped
+35535,Cover cap 12.5mm,غطاء ١٢٫٥ مم,other,12.5,50,0.291,89,
+32373,Cover cap 12.5mm,غطاء ١٢٫٥ مم,other,12.5,50,0.284,89,
+32372,Cover cap 16.5mm,غطاء ١٦٫٥ مم,other,16.5,50,0.329,89,
+35434,Cover cap 20.5mm,غطاء ٢٠٫٥ مم,other,20.5,50,0.362,89,
+TC5010,"Thermal break vent sash for 4 sided, 2 sided & conventional",ضلفة فتحة معزولة حرارياً (إنشائي ٤ جهات وجهتين وعادي),sash,75.99,14,1.176,89,thermal-break assembly of 35412 + 35413; face = vertical dim as drawn
+TC5020,Thermal break vent frame for 4 sided & 2 sided,حلق فتحة معزول حرارياً (إنشائي ٤ جهات وجهتين),frame,74.98,36,1.217,89,thermal-break assembly of 35410 + 35411 (35411 black anodized)
+TC5030,Thermal break vent frame for conventional,حلق فتحة معزول حرارياً (عادي),frame,85.99,36,1.323,89,thermal-break assembly of 35410 + 35448 (35448 black anodized)
+32444,"Non thermal break vent sash for 4 sided, 2 sided & conventional",ضلفة فتحة غير معزولة حرارياً (إنشائي ٤ جهات وجهتين وعادي),sash,71,43.5,1.104,89,
+32443,"Non thermal break vent frame for 4 sided, 2 sided & conventional",حلق فتحة غير معزول حرارياً (إنشائي ٤ جهات وجهتين وعادي),frame,57.5,31,0.778,89,
+32445,Structural vent sash (black anodized),ضلفة فتحة إنشائية (أنودايز أسود),sash,5.7,24.8,0.203,89,small clip-type profile; dims as drawn
+32446,Structural vent frame adaptor (black anodized),محول حلق فتحة إنشائية (أنودايز أسود),adaptor,44.3,20,0.508,90,
+35445,Structural vent frame,حلق فتحة إنشائية,frame,57.5,37.7,0.602,90,
+35446,Structural vent frame adaptor (black anodized),محول حلق فتحة إنشائية (أنودايز أسود),adaptor,28.3,10.4,0.184,90,
+32402,Handle strip for Euro groove,شريط مقبض لمجرى يورو,other,19.6,4.5,0.151,90,2.6 also marked
+63051,Tube 13x13x1.4mm (black anodized),مربع ١٣×١٣×١٫٤ مم (أنودايز أسود),other,13,13,0.177,90,wall 1.4 per description; wall from 1:1 drawing
+32496,"Spacer for 4 sided structural glazing, suits HELIMA spacer 1458 (black anodized)",فاصل للزجاج الإنشائي من أربع جهات، يناسب فاصل HELIMA 1458 (أنودايز أسود),other,25.8,21.4,0.321,90,aluminium structural-glazing spacer profile
+32476,Spacer for 4 sided structural glazing (black anodized),فاصل للزجاج الإنشائي من أربع جهات (أنودايز أسود),other,24.3,21.4,0.311,90,
+35424,"Spacer for 4 or 2 sided structural glazing, suits HELIMA spacer 1458 (black anodized)",فاصل للزجاج الإنشائي من ٤ أو جهتين، يناسب فاصل HELIMA 1458 (أنودايز أسود),other,25.3,18.4,0.270,90,
+35419,"Spacer for 4 or 2 sided structural glazing, suits HELIMA spacer 1458 (black anodized)",فاصل للزجاج الإنشائي من ٤ أو جهتين، يناسب فاصل HELIMA 1458 (أنودايز أسود),other,25.8,17.8,0.276,90,
+32432,"Spacer for 2 sided structural glazing, suits HELIMA spacer 1156 (black anodized)",فاصل للزجاج الإنشائي من جهتين، يناسب فاصل HELIMA 1156 (أنودايز أسود),other,23,15.4,0.265,90,
+32387,"Spacer for 2 sided structural glazing, suits HELIMA spacer 1156 (black anodized)",فاصل للزجاج الإنشائي من جهتين، يناسب فاصل HELIMA 1156 (أنودايز أسود),other,23,15.4,0.261,90,9.5 also marked
+32485,Clamp block for 90° corner mullion 32490 (2 & 4 sided structural),كلامب لقائم الزاوية ٩٠ درجة 32490 (إنشائي من جهتين وأربع جهات),other,22.8,54.15,0.543,90,13.8 also marked; matches 32490
+32488,Clamp block for external corner 135°,كلامب للزاوية الخارجية ١٣٥ درجة,other,33.4,50,0.837,90,42.99 also marked
+32389,14mm clamp block for 2 sided structural,كلامب ١٤ مم للزجاج الإنشائي من جهتين,other,14,19.49,0.329,91,10 also marked
+35409,14.5mm clamp block for 2 sided structural,كلامب ١٤٫٥ مم للزجاج الإنشائي من جهتين,other,14.5,19.5,0.340,91,
+35422,17mm clamp block,كلامب ١٧ مم,other,17,22.5,0.440,91,
+32431,18.5mm clamp block,كلامب ١٨٫٥ مم,other,18.5,19.5,0.529,91,
+35473,18.5mm clamp block,كلامب ١٨٫٥ مم,other,18.51,19.52,0.395,91,
+35444,20mm clamp block,كلامب ٢٠ مم,other,20,22.5,0.505,91,"description printed as ""20mm Clamp block for"" with no continuation (truncated in catalogue)"
+32479,20mm clamp block for 4 sided structural,كلامب ٢٠ مم للزجاج الإنشائي من أربع جهات,other,20,22.5,0.505,91,
+35498,Adaptor,محول,adaptor,42,16,0.404,91,40 also marked
+35405,Adaptor,محول,adaptor,36,16,0.369,91,34 also marked
+35453,Adaptor,محول,adaptor,30,16,0.330,91,28 also marked
+32375,16mm glazing adaptor,محول زجاج ١٦ مم,adaptor,16,11.2,0.192,91,
+32381,24mm glazing adaptor,محول زجاج ٢٤ مم,adaptor,24,11.2,0.243,91,
+32383,Glazing adaptor for angles 5°-15°,محول زجاج للزوايا ٥-١٥ درجة,adaptor,6,12.8,0.140,91,11.2 and 10° also marked
+32386,Glazing adaptor for angles 16°-25°,محول زجاج للزوايا ١٦-٢٥ درجة,adaptor,6,11.2,0.167,92,20° also marked
+32382,Glazing adaptor for angles 36°-45°,محول زجاج للزوايا ٣٦-٤٥ درجة,adaptor,6,11.2,0.178,92,40° also marked; 1:1 drawing p123 says angles 36°-40° (index says 36°-45°)
+35466,3.8mm nose adaptor,محول أنف ٣٫٨ مم,adaptor,3.8,10,0.087,92,6 and 6.16 also marked
+35447,14.5mm nose adaptor,محول أنف ١٤٫٥ مم,adaptor,14.5,10,0.167,92,
+35433,18.5mm nose adaptor,محول أنف ١٨٫٥ مم,adaptor,18.5,10,0.197,92,
+35403,25mm nose adaptor,محول أنف ٢٥ مم,adaptor,25,10,0.322,92,
+32477,Spandrel profile for 4 sided structural glazing (black anodized),قطاع سباندرل للزجاج الإنشائي من أربع جهات (أنودايز أسود),other,26,22,0.454,92,26 wide; 22 and 26 heights marked
+35421,Spandrel profile for 4 sided structural glazing (black anodized),قطاع سباندرل للزجاج الإنشائي من أربع جهات (أنودايز أسود),other,25.8,20.4,0.446,92,23 also marked
+32388,Spandrel profile for 2 sided structural glazing (black anodized),قطاع سباندرل للزجاج الإنشائي من جهتين (أنودايز أسود),other,25.8,19,0.437,92,20 also marked
+35432,Spandrel profile for structural glazing (black anodized),قطاع سباندرل للزجاج الإنشائي (أنودايز أسود),other,26,17.52,0.381,92,19 also marked
+32478,Glass support 34.5mm,حامل زجاج ٣٤٫٥ مم,other,34.5,7,0.302,92,3 also marked
+35420,Glass support 32mm,حامل زجاج ٣٢ مم,other,32,7,0.281,92,3 also marked
+32456,Glass support 30mm,حامل زجاج ٣٠ مم,other,30,7,0.265,92,3 also marked
+32491,Glass support 23.5mm,حامل زجاج ٢٣٫٥ مم,other,23.5,7,0.213,93,3 also marked
+32437,Heavy duty transom cleat,زاوية تجميع عارضة ثقيلة,cleat,49.4,44.4,1.485,93,
+35539,Heavy duty 250mm transom cleat,زاوية تجميع عارضة ثقيلة ٢٥٠ مم,cleat,49.4,43.4,1.473,93,for 250mm transom 35538; drawing p127 43.4 x 49.4
+32378,Light duty transom cleat,زاوية تجميع عارضة خفيفة,cleat,40,46,0.713,93,44.4 also marked; 1:1 drawing p126 shows 44.4 x 39.99
+32483,Covering profile,قطاع تغطية,other,9,46.6,0.310,93,
+32487,Covering profile,قطاع تغطية,other,9,23.3,0.165,93,
+32481,Covering profile,قطاع تغطية,other,35.8,79,0.616,93,1:1 drawing p119 shows overall 79 wide x 35.8 (index shows 36 inner)
+32482,Covering profile,قطاع تغطية,other,40,4.1,0.243,93,
+32489,Covering profile,قطاع تغطية,other,25,16.26,0.184,93,4.1 also marked
+32486,Covering profile,قطاع تغطية,other,50,15,0.373,93,20 also marked
+33198,Clip for cladding,كلبس للتكسية,other,56,1.3,0.230,93,1.3 also marked (thickness)
+28721,Clip for cladding,كلبس للتكسية,other,42.58,2.2,0.281,93,2.2 also marked (thickness)
+17804,Corner cleat 66x66x6.3mm,زاوية تجميع ٦٦×٦٦×٦٫٣ مم,cleat,66,66,1.890,94,leg thickness 6.3
+32447,Corner cleat 71x71x15.2mm,زاوية تجميع ٧١×٧١×١٥٫٢ مم,cleat,71,71,2.970,94,leg thickness 15.2
+17812,Corner cleat 65x65x9.6mm,زاوية تجميع ٦٥×٦٥×٩٫٦ مم,cleat,65,65,2.511,94,leg thickness 9.6
+17814,Corner cleat 65x65x10mm,زاوية تجميع ٦٥×٦٥×١٠ مم,cleat,65,65,2.651,94,leg thickness 10
+17826,Corner cleat 85x85x16.8mm,زاوية تجميع ٨٥×٨٥×١٦٫٨ مم,cleat,84.9,84.9,5.551,94,named 85x85x16.8; drawing shows 84.9; 1:1 drawing p128 shows 85
+20867,Corner cleat 60x60x12mm,زاوية تجميع ٦٠×٦٠×١٢ مم,cleat,60,60,3.133,94,leg thickness 12
+32877,Fixing bracket,كتيفة تثبيت,other,110,170,5.049,94,36 slot also marked
+32390,Fixing bracket,كتيفة تثبيت,other,80,205,6.685,94,55 slot also marked
+33047,Fixing bracket with plate 33010,كتيفة تثبيت مع اللوح 33010,other,102,180,6.275,94,"51 slot; 6 and 8 thickness marked; height not dimensioned; matches washer plate 33010; 1:1 drawing p127: 102 flange, 180 base"
+36179,Fixing bracket with plate 24805,كتيفة تثبيت مع اللوح 24805,other,74,203,6.758,94,53 slot; 6 and 8 thickness marked; height not dimensioned; matches washer plate 24805; 1:1 drawing p127 shows 74 projection
+33010,Washer plate for fixing bracket 33047,لوح وردة لكتيفة التثبيت 33047,other,35.6,5,0.413,94,5 thick
+24805,Washer plate for fixing bracket 36179,لوح وردة لكتيفة التثبيت 36179,other,40,5,0.481,94,5 thick

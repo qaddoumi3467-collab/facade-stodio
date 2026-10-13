@@ -64,8 +64,31 @@ CATALOGUES = {
         description="Thermally broken sliding windows, 97 mm frame.",
         thermal_break=True,
     ),
+    "alupcotherm_123_3mm": dict(
+        code="ALUPCOTHERM-123-3MM",
+        name_en="ALUPCOtherm 123 mm thermal sliding, 3 mm profiles",
+        name_ar="ألوبكوثيرم ١٢٣ مم سحاب معزول حرارياً، قطاعات ٣ مم",
+        manufacturer="Alupco",
+        description="Heavy 3 mm version of ALUPCOtherm 123 sliding windows and doors.",
+        thermal_break=True,
+    ),
+    "alupco_goss": dict(
+        code="ALUPCO-GOSS",
+        name_en="Alupco GOSS lift and slide thermal break",
+        name_ar="ألوبكو جوس سحاب رفع معزول حرارياً",
+        manufacturer="Alupco",
+        description="Lift and slide doors with Giesse hardware, thermally broken.",
+        thermal_break=True,
+    ),
+    "alupco_sg50": dict(
+        code="ALUPCO-SG50",
+        name_en="Alupco 50SG curtain wall",
+        name_ar="ألوبكو ٥٠ واجهات زجاجية (كيرتن وول)",
+        manufacturer="Alupco",
+        description="50 mm curtain wall: conventional, 2 sided and 4 sided structural glazing.",
+        thermal_break=False,
+    ),
 }
-
 
 @dataclass
 class ImportResult:

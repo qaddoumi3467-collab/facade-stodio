@@ -1,0 +1,11 @@
+article_no,name_en,name_ar,role,width_mm,height_mm,weight_kg_per_m,catalogue_page,notes
+TS1500,Frame (45 degree joint),حلق (تجميع ٤٥ درجة),frame,106,50.5,2.024,19,Thermal break frame (Frame 45° Profile); assembled from 80450 (inner) + 2x 942600 20mm PA66+GF25 bars + 80451 (outer); cleat 20884 inner and outer; perimeter 590.43mm; PDF page 23; index on printed p3 (PDF 7) gives no weights
+TS1501,Sash,ضلفة,sash,45,78,1.462,20,Thermal break sash; 2x 80452 + 32mm PA66+GF25 bars 939700 / 306200 (euro groove); corner joint 02923N (hardware); printed dimension 78/45; perimeter 426.25mm; PDF page 24
+80456,Central labyrinth,متاهة وسطية (انترلوك),interlock,16.5,52,0.304,21,Aluminium; role inferred (central meeting/labyrinth profile); cross-section printed p28 table labels 80456 as Interlock and 311300 as Central Labyrinth (swapped vs index and drawing page); perimeter 156.93mm; PDF page 25
+80453,Flyscreen track,مجرى شبك,flyscreen,23.7,50.4,0.420,21,Aluminium fly screen track; perimeter 177.27mm; PDF page 25
+80455,Decoration profile,قطاع ديكور,other,12.3,30,0.206,21,Aluminium decoration/cover profile; role inferred; perimeter 104.60mm; PDF page 25
+80454,Decoration profile,قطاع ديكور,other,12.3,63.3,0.365,22,Aluminium decoration/cover profile (30 + 33.3); role inferred; perimeter 181.54mm; PDF page 26
+23774,Flyscreen frame,حلق شبك,flyscreen,16.5,50,0.505,22,Aluminium fly screen frame; corner joint 17818; index spells 'Frmae'; perimeter 230.65mm; PDF page 26
+10554,Flyscreen track 80mm,مجرى شبك ٨٠ مم,flyscreen,23.7,80.4,0.570,22,"Aluminium fly screen track, taller variant (50.4 + 30); perimeter 250.32mm; PDF page 26"
+17818,Corner cleat,زاوية تجميع,cleat,60,60,3.051,23,"Aluminium corner cleat for mosquito frame 23774; legs 60/60, thickness 13.7mm; perimeter 284.80mm; PDF page 27"
+20884,Corner cleat,زاوية تجميع,cleat,89,89,4.482,23,"Aluminium corner cleat for frame TS1500 (80450/80451); legs 89/89, thickness 14mm; perimeter 475mm; PDF page 27"
